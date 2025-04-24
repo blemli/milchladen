@@ -1,46 +1,39 @@
-## Galaxus.py
+# Galaxus.py
 
-*The missing api client for galaxus.ch*
+*The missing cli client for galaxus.ch*
+
+![image-20250424181259146](milchladen.png)
+
+# Install
+
+```bash
+# 1. clone and enter
+git clone https://github.com/blemli/milchladen && cd milchladen
+
+# 2. create venv
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 3. install dependencies
+python3 -m pip install -r requirements.txt
+
+# 4. make it executable
+chmod +x galaxus.py
+
+# 5. login
+./galaxus.py auth login
+
+```
+
+# Use
+
+```bash
+./galaxus.py --help
+```
 
 
 
-## Usage
+> [!TIP]
+>
+> add galaxus.py to your path to call it more easily
 
-1. clone and enter
-
-   ```bash
-   git clone https://github.com/blemli/milchladen && cd milchladen
-   ```
-
-2. create venv
-
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-
-3. install dependencies
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. make executable
-
-   ```bash
-   chmod +x galaxus.py
-   ```
-
-5. login
-
-   ```bash
-   ./galaxus.py auth login
-   ```
-
-6. use
-
-   ```bash
-   ./galaxus.py --help
-   ```
-
-   
