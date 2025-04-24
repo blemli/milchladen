@@ -1,0 +1,6 @@
+click==8.1.8
+icecream==2.1.4
+selenium==4.31.0
+splinter==0.21.0
+undetected_chromedriver==3.5.5
+webdriver_manager==4.0.2
