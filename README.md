@@ -4,7 +4,23 @@
 
 ![image-20250424181259146](milchladen.png)
 
+
+
 # Install
+
+## with pipx
+
+```bash
+# 1. clone and enter
+git clone https://github.com/blemli/milchladen && cd milchladen
+
+# 2. install
+pipx install --editable .
+```
+
+
+
+## or with manual venv
 
 ```bash
 # 1. clone and enter
@@ -20,20 +36,15 @@ python3 -m pip install -r requirements.txt
 # 4. make it executable
 chmod +x galaxus.py
 
-# 5. login
-./galaxus.py auth login
-
+# 5. create alias
+alias galaxus=./galaxus.py
 ```
+
+
 
 # Use
 
 ```bash
-./galaxus.py --help
+galaxus auth login
+galaxus --help
 ```
-
-
-
-> [!TIP]
->
-> add galaxus.py to your path to call it more easily
-
