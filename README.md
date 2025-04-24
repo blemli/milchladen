@@ -1,4 +1,4 @@
-## # Galaxus.py
+## Galaxus.py
 
 *The missing api client for galaxus.ch*
 
